@@ -1,0 +1,134 @@
+body {
+    /* Dimensões */
+    margin: 0;
+    padding: 0;
+
+    /* Estilos */
+    background-color: #427ab3;
+   
+    /* Textos */
+    font-family: Arial, Helvetica, sans-serif;
+    color: #333;
+}
+
+header {
+    /* Dimensões */
+    padding: 1rem 2rem;
+
+    /* Posicionamento */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    /* Estilos */
+    background-color: #fff;
+}
+
+.logo {
+    /* Textos */
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+nav ul {
+
+    /* Posicionamento */
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+
+    /* Estilos */
+    list-style: none;
+   
+}
+
+nav ul li {
+    /* Posicionamento */
+    display: inline;
+}
+
+nav ul li a {
+    /* Estilos */
+    text-decoration: none;
+
+    /* Textos */
+    font-weight: bold;
+    color: #333;
+}
+
+nav ul li a:hover {
+    /* Textos */
+    color: #427ab3;
+}
+
+.home {
+    /* Dimensões */
+    padding: 4rem 2rem;
+
+    /* Estilos */
+    background-color:  #232a96;
+
+    /* Textos */
+    color: #fff;
+    text-align: center;
+}
+
+.home button {
+    /* Dimensões */
+    padding: 0.75rem 1rem;
+    margin-top: 1rem;
+
+    /* Estilos */
+    background-color: #fff;
+    border: none;
+    border-radius: 3px;
+
+    /* Textos */
+    color: #007bff;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.home button:hover {
+    /* Estilos */
+    background-color: #5500ff;
+    color:  #fff;
+}
+
+.info, 
+.servicos,
+.depoimentos {
+    /* Dimensões */
+    padding: 2rem 3rem;
+
+    /* Textos */
+    text-align: center;
+    color: #fff;
+}
+
+.info {
+    /* Estilos */
+    background-color: #0c1dff;
+}
+
+.servicos {
+    /* Estilos */
+    background-color: #2b39ff;
+}
+
+.depoimentos {
+    /* Estilos */
+    background-color: #4e5aff;
+}
+
+.depoimentos blockquote {
+    /* Dimensões */
+    margin-bottom: 1rem;
+
+    /* Textos */
+    font-style: italic;
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: #333;
+}
