@@ -132,3 +132,8 @@ nav ul li a:hover {
     font-size: 1.25rem;
     color: #333;
 }
+
+footer {
+    /* Textos */
+    text-align: center;
+}
